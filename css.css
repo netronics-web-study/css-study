@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+
+.background {
+  width: 500px;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  border: 2px solid #811fbf;
+  box-sizing: border-box;
+  box-shadow: 7px 7px 39px rgba(0, 104, 255, 0.25);
+  border-radius: 20px;
+  background-color: rgb(196, 251, 255);
+}
+.wrapper {
+  margin: 60px 0px;
+  width: 380px;
+  height: 820px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "noto-sans-cjk-kr", sans-serif;
+  font-weight: 700, bold;
+  font-style: normal;  
+}
+.title {
+  height: 50px;
+  font-weight: bolder;
+  font-size: 32px;
+  line-height: 47px;
+  text-align: center;
+  color: #0068ff;
+}
+
+.profile__input {
+  width: 100%;
+}
+input:focus {outline:2px solid #0068ff;}
+.input_text {
+  margin: 10px 0px;
+  width: 100%;
+  height: 60px;
+
+  background: #ffffff;
+  border: 1px solid #6c6c6c;
+  border-radius: 7px;
+  padding-left: 15px;
+
+  font-size: 16px;
+  line-height: 24px;
+  color: #797979;
+}
+
+.phone {
+  width: 380px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#phone1,
+#phone2,
+#phone3 {
+  width: 100px;
+  height: 40px;
+
+  background: #ffffff;
+  border: 1px solid #d2d2d2;
+  border-radius: 7px;
+  text-align: center;
+}
+.auth {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+#auth_number,
+#minute {
+  font-size: 18px;
+  line-height: 27px;
+
+  text-align: right;
+
+  color: #0068ff;
+}
+#send_number,
+#complete_auth {
+  width: 120px;
+  height: 40px;
+  background-color: #ffffff;
+  border: 1px solid #6c6c6c;
+  border-radius: 7px;
+  margin-left: 21px;
+}
+#complete_auth {
+  background-color: #ffffff;
+  border: 1px solid #6c6c6c;
+  line-height: 24px;
+  text-align: center;
+}
+
+#location {
+  width: 380px;
+  height: 60px;
+
+  background: #ffffff;
+  border: 1px solid #6c6c6c;
+  border-radius: 7px;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 15px;
+  color: #797979;
+}
+
+.gender {
+  width: 200px;
+  margin: 0 auto;
+  display: flex;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  flex-direction: row;
+  border-spacing: 0 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.service__term {
+  padding-left: 15px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+#submit {
+  width: 100%;
+  height: 75px;
+  justify-content: end;
+  background: #ffffff;
+  border: 1px solid #ba0000;
+  box-sizing: border-box;
+  border-radius: 10px;
+  color: #000000;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+}
+hr {
+  width: 100%;
+  color: #cfcfcf;
+}
